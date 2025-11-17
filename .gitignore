@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Scrapy
+/.scrapy
+
+# Scrapy output files (JSON, JL, XML)
+*.jl
+*.json
+*.xml
+
+# CSV output: ignore generated CSVs but keep the two dataset files in repo
+*.csv
+!/Horizonlistings.csv
+!/Sakilalisting.csv
+
+# Virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+# PowerShell history
+ConsoleHost_history.txt
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# macOS
+.DS_Store
